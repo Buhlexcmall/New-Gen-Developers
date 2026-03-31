@@ -14,3 +14,18 @@ like group works and student leadershio roles.
 SmartStudy helps students stay organized, focused, and academically productive 
 without distractions.
 ## Key Features
+Smart academic scheduler
+Task and deadline tracker
+Smart reminders and Notification
+Progress Tracker
+Daily Focus VIew/Dashboard
+## Success Metrics
+Task Completion Rate
+Deadline
+Daily Active Usage
+Task Engagement Rate
+Notification Effectiveness
+Missed Deadline Reduction
+User Satisfication
+
+
