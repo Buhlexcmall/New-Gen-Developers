@@ -20,12 +20,12 @@ Smart reminders and Notification
 Progress Tracker
 Daily Focus VIew/Dashboard
 ## Success Metrics
-Task Completion Rate
-Deadline
-Daily Active Usage
-Task Engagement Rate
-Notification Effectiveness
-Missed Deadline Reduction
-User Satisfication
+- Task Completion Rate
+- Deadline
+- Daily Active Usage
+- Task Engagement Rate
+- Notification Effectiveness
+- Missed Deadline Reduction
+- User Satisfication
 
 
