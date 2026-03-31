@@ -1,8 +1,8 @@
 # Project name
 SmartStudy
-##Problem Statement 
+## Problem Statement 
 University students often juggle lectures, assignments, tutoring sessions and other and non academic commitments
 like group works and student leadershio roles.
-##Target users
+## Target users
 -- University students
--Students 
+- Students 
