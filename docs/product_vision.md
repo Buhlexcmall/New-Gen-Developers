@@ -27,5 +27,14 @@ Daily Focus VIew/Dashboard
 - Notification Effectiveness
 - Missed Deadline Reduction
 - User Satisfication
+## Moore's Vision Template 
+**For** University students in south africa, especially those juggling leadership roles, side hustles, and heavy academic workloads.
+**Who** struggle to stay organized, meet deadlines, and balance multiple responsibilities without burnimg out.
+**The** SmartStudy app.
+**Is a** student productivity and academic management application.
+**That** keeps students focused, organized, and academecally productive by combining smart scheduling, task tracking, reminders
+and progress dashboards.
+**Unlike** generic productivity app like google Calender or Tello, which are not tailored to the unique demands of studrnt life.
+**Our product**is designed specifically for university students, with features that integrate academic schedules, leadership commitments, and personal goals into one cohesive platform.
 
 
