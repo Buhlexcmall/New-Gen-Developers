@@ -1,7 +1,7 @@
 # Software Product Management Plan
 
 ## 1. Project Overview
-The Student Productivity App is a software system designed to help university students manage their academic responsibilities effectively. The system provides tools for organizing class schedules, tracking assignments, planning study sessions, and accessing tutoring services.
+The Student Productivity App is a software system designed to help university students manage their academic responsibilities effectively. The system provides tools for organizing class schedules, tracking assignments,and planning study sessions. 
 
 ## 2. Product Vision
 To provide a simple, integrated platform that helps students manage their academic workload, improve productivity, and achieve better academic performance.
@@ -9,7 +9,6 @@ To provide a simple, integrated platform that helps students manage their academ
 ## 3. Objectives
 - Help students organize their academic activities in one place  
 - Reduce missed deadlines and improve time management  
-- Provide access to tutoring and study support  
 - Deliver a user-friendly and reliable system  
 
 ## 4. Target Users
@@ -22,7 +21,6 @@ To provide a simple, integrated platform that helps students manage their academ
 - Schedule management  
 - Assignment tracking  
 - Study planning  
-- Tutoring system  
 - Notifications and reminders  
 
 ### Out of Scope
@@ -32,8 +30,8 @@ To provide a simple, integrated platform that helps students manage their academ
 ## 6. Product Roadmap
 - *Phase 1:* Basic system (schedule and assignments)  
 - *Phase 2:* Study planner and notifications  
-- *Phase 3:* Tutoring system  
-- *Phase 4:* System improvements and scaling  
+- *Phase 3:* System improvements and performance enhancements
+- *Phase 4:* Scaling and optimization  
 
 ## 7. Development Approach
 The project will follow an *Agile methodology*, with iterative development and continuous feedback from users. Features will be delivered in increments, allowing flexibility and continuous improvement over time.
