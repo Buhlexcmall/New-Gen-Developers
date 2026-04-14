@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node modules (if used later)
+node_modules/
+
+# Environment files
+.env
+
+# Temporary files
+*.tmp
+*.cache
+
+# Build outputs
+dist/
+build/
+
+# Figma exports backup (optional)
+*.fig
