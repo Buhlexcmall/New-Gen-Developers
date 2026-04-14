@@ -10,7 +10,7 @@ This section presents the UI wireframes of the Student Productivity App designed
 
 \## Home
 
-!\[Home](../images/home.png)
+!\[Home]images/home.png)
 
 
 
@@ -20,7 +20,7 @@ The home screen serves as the entry point of the application, providing quick ac
 
 \## Study
 
-!\[Study](../images/study.png)
+!\[Study](images/study.png)
 
 
 
@@ -30,7 +30,7 @@ This screen allows students to plan and manage their study sessions, helping the
 
 \## Task
 
-!\[Task](../images/task.png)
+!\[Task](images/task.png)
 
 
 
@@ -40,7 +40,7 @@ The task screen enables students to track assignments, deadlines, and academic r
 
 \## Schedule
 
-!\[Schedule](../images/schedule.png)
+!\[Schedule](images/schedule.png)
 
 
 
@@ -50,13 +50,9 @@ This screen provides a structured view of class schedules and planned activities
 
 \## Notifications
 
-!\[Notifications](../images/notifications.png)
+!\[Notifications](images/notifications.png)
 
 
 
 This screen provides reminders for upcoming deadlines, study sessions, and important academic events, helping students stay informed and avoid missed tasks.
-
-
-
-
 
