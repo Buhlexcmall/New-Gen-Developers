@@ -1,60 +1,86 @@
-Software Product Management Plan
-1. Project Overview
-The Student Productivity App is a software system designed to help university students manage their academic responsibilities effectively. The system provides tools for organizing class schedules, tracking assignments,and planning study sessions.
+# Software Product Management Plan
 
-2. Product Vision
+## 1. Project Overview
+The Smart Study App is a software system designed to help university students manage their academic responsibilities effectively. The system provides tools for organising class schedules, tracking assignments, and planning study sessions — all in one centralised platform.
+
+## 2. Product Vision
 To provide a simple, integrated platform that helps students manage their academic workload, improve productivity, and achieve better academic performance.
 
-3. Objectives
-Help students organize their academic activities in one place
-Reduce missed deadlines and improve time management
-Deliver a user-friendly and reliable system
-4. Target Users
-University and college students
-Students managing multiple courses and responsibilities
-5. Scope
-In Scope
-Schedule management
-Assignment tracking
-Study planning
-Notifications and reminders
-Out of Scope
-Financial management features
-Non-academic task management
-6. Product Roadmap
-Phase 1: Basic system (schedule and assignments)
-Phase 2: Study planner and notifications
-Phase 3: System improvements and performance enhancements
-Phase 4: Scaling and optimization
-7. Development Approach
-The project will follow an Agile methodology, with iterative development and continuous feedback from users. Features will be delivered in increments, allowing flexibility and continuous improvement over time.
+## 3. Objectives
+- Help students organise their academic activities in one place
+- Reduce missed deadlines and improve time management
+- Deliver a user-friendly and reliable system accessible on web and mobile
 
-8. Roles and Responsibilities
-Product Owner: Defines requirements and prioritizes features
-Development Team: Designs, develops, and tests the system
-Stakeholders: Provide feedback and requirements
-9. Risk Management
-Risk: Poor requirement understanding
+## 4. Target Users
+- University and college students
+- Students managing multiple courses and responsibilities
 
-Mitigation: Regular communication and feedback
-Risk: Delays in development
+## 5. Scope
 
-Mitigation: Incremental delivery and task prioritization
-Risk: Low user adoption
+### In Scope
+- Class schedule management
+- Assignment tracking and deadline management
+- Study session planning
+- Notifications and reminders
 
-Mitigation: Focus on usability and user needs
-10. Success Metrics
-Number of active users
-Assignment and task completion rates
-User engagement (daily and weekly usage)
-User satisfaction feedback
-11. Release Plan
-Initial release with core features
-Regular updates based on feedback
-Continuous improvements and bug fixes
-12. Tools and Technologies
-Frontend: Web and mobile interface
-Backend: API-based system
-Database: PostgreSQL
-Design: Figma
-Version Control: GitHub
+### Out of Scope
+- Financial management features
+- Non-academic task management
+- Social networking features
+
+## 6. Product Roadmap
+
+| Phase | Description | Timeline |
+|-------|-------------|----------|
+| Phase 1 | Product vision, wireframes, and repository setup | Week 1–3 |
+| Phase 2 | Agile planning, sprint backlog, and team roles | Week 4–6 |
+| Phase 3 | Feature identification, personas, and user stories | Week 7–9 |
+| Phase 4 | Development, testing, and deployment | Week 10–14 |
+
+## 7. Development Approach
+The project will follow an **Agile (Scrum)** methodology, with iterative development and continuous feedback. Features will be delivered in increments across 2-week sprints, allowing flexibility and continuous improvement.
+
+## 8. Team Members & Roles
+
+| Name | Role | Responsibilities |
+|------|------|-----------------|
+|[Likhona Matshabisa]|Document Specialist|
+| [Akhona Tabane] | Product Owner | Defines requirements, prioritises backlog, aligns with user needs |
+| [Buhle Magadla] | Scrum Master | Facilitates Agile meetings, ensures Scrum practices are followed |
+| [Japani Mbasa] | Developer | Backend API development and database management |
+| [Athini Ndala] | Developer | Frontend design and implementation |
+| [Luxolo Mkhathazo] | QA & Documentation | Testing, bug reporting, and technical documentation |
+
+## 9. Risk Management
+
+| Risk | Likelihood | Impact | Mitigation |
+|------|-----------|--------|------------|
+| Poor requirement understanding | Medium | High | Regular communication and feedback sessions |
+| Delays in development | Medium | High | Incremental delivery and task prioritisation |
+| Low user adoption | Low | High | Focus on usability and user-centred design |
+| Technical issues / bugs | Medium | Medium | GitHub version control and code reviews |
+| Team member unavailability | Low | Medium | Cross-training and task documentation |
+
+## 10. Success Metrics
+- Number of active registered users
+- Assignment and task completion rates
+- User engagement (daily and weekly active usage)
+- User satisfaction feedback scores
+- Reduction in missed deadlines reported by users
+
+## 11. Release Plan
+- **v1.0**: Initial release with core features (schedule and assignment tracking)
+- **v1.1**: Study planner and notifications added
+- **v1.2**: Performance improvements based on user feedback
+- **v2.0**: Scaling, optimisation, and additional features
+
+## 12. Technology Stack
+
+| Layer | Technology | Reason |
+|-------|-----------|--------|
+| Frontend | React.js | Component-based, fast rendering, widely supported |
+| Backend | Python / Django | Rapid development, strong REST API support, large community |
+| Database | PostgreSQL | Reliable, scalable relational database suitable for academic data |
+| Design | Figma | Industry-standard UI/UX prototyping tool |
+| Version Control | GitHub | Industry-standard, supports collaboration and CI/CD |
+| Communication | WhatsApp + Google Meet | Accessible and familiar to the team |
