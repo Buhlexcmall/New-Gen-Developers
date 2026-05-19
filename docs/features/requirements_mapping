@@ -1,0 +1,92 @@
+# Feature to Requirements Mapping — Student Productivity App
+
+---
+
+## Feature: User Authentication
+
+**Functional Requirements:**
+- Students must be able to register using a valid email address and password
+- Students must be able to log in and log out of their accounts
+- The system must support password reset via email verification
+- Passwords must be validated for minimum length and complexity
+
+**Non-Functional Requirements:**
+- Login response must complete within 2 seconds under normal load
+- All passwords must be stored using secure hashing (e.g., bcrypt)
+- The system must use HTTPS to encrypt all data in transit
+- The session must expire after 30 minutes of inactivity for security
+
+---
+
+## Feature: Class Schedule Management
+
+**Functional Requirements:**
+- Students must be able to add a class with fields: subject name, day, start time, end time, and location
+- Students must be able to view their schedule in a weekly calendar layout
+- Students must be able to edit or delete any class entry they have created
+- The system must prevent scheduling conflicts (overlapping times on the same day)
+
+**Non-Functional Requirements:**
+- The schedule view must load within 2 seconds
+- The calendar must display correctly on both mobile and desktop screen sizes
+- Data must be saved persistently so the schedule is available on next login
+
+---
+
+## Feature: Assignment Tracking
+
+**Functional Requirements:**
+- Students must be able to create an assignment with a title, subject, due date, and description
+- Students must be able to update assignment status: To Do, In Progress, or Done
+- Students must be able to set a priority level: High, Medium, or Low
+- Students must be able to delete assignments they no longer need
+- Assignments must be sortable and filterable by due date, subject, or status
+
+**Non-Functional Requirements:**
+- Assignment list must load within 2 seconds even with 100+ entries
+- Changes to assignment status must be saved immediately without page refresh
+- The system must support at least 500 concurrent student users without performance degradation
+
+---
+
+## Feature: Study Session Planner
+
+**Functional Requirements:**
+- Students must be able to create a study session with subject, date, start time, and end time
+- Students must be able to view all planned sessions in a calendar view
+- Students must be able to edit or delete study sessions
+- The system must display total planned study hours per subject per week
+
+**Non-Functional Requirements:**
+- Study session calendar must load within 2 seconds
+- The planner must work offline and sync when the device reconnects to the internet
+- Session data must not be lost if the app is closed unexpectedly
+
+---
+
+## Feature: Notifications and Reminders
+
+**Functional Requirements:**
+- The system must send push notifications for assignment deadlines based on user-defined lead time (1, 2, or 3 days before)
+- The system must send class reminders a configurable number of minutes before each class
+- Students must be able to enable or disable individual notification types in settings
+- The system must deliver a daily morning summary of the day's classes and deadlines
+
+**Non-Functional Requirements:**
+- Notifications must be delivered within 60 seconds of the scheduled trigger time
+- Notification delivery must achieve 99% reliability
+- The system must not send duplicate notifications for the same event
+
+---
+
+## Feature: Dashboard Overview
+
+**Functional Requirements:**
+- The dashboard must display today's classes, assignments due within 7 days, and pending tasks
+- The dashboard must show a progress bar per subject indicating task completion percentage
+- The dashboard must be personalised to the logged-in student's data only
+
+**Non-Functional Requirements:**
+- Dashboard must load within 3 seconds after login
+- Dashboard data must reflect real-time changes made elsewhere in the app without manual refresh
+- The UI must be accessible and readable on screens as small as 360px wide (mobile-first design)
