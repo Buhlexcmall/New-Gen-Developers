@@ -1,4 +1,4 @@
-# Technology Stack — Student Productivity App
+# Technology Stack — SmartStudy
 
 ## Stack Summary
 
