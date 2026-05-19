@@ -1,6 +1,8 @@
 # SYSTEM ARCHITECTURE OVERVIEW
 ## Architecture Style
-Layered Architecture
+**Layered Architecture**
+The Student SmartStudy App uses a three-layer architecture: a Presentation Layer (React.js frontend), an Application Layer (Django REST API backend), and a Data Layer (PostgreSQL database)
+
 ## Alternative Options Considered
 - **Monolithic**: Simple to build, one codebase, easy to run, but gets hard to scale features later, and one bug can break everything.
 - **Microservices**: Each service scales alone,indipendent deployment, but can be complex for small teams and hard to debug and test.
@@ -12,7 +14,7 @@ Layered Architecture
 - Single point of failure: A crash in the business logic layer brings the entire application down since all layers are deplyed as one unit
 - Tight coupling: If layers bypass each other (e.g. UI querying the database directly), changes in one layer can unexpectedly break another.
 
-  +--------------------------------------------------+
++--------------------------------------------------+
 |             STUDENT (Browser / Mobile)           |
 +--------------------------------------------------+
                         |
@@ -20,9 +22,9 @@ Layered Architecture
 +--------------------------------------------------+
 |              PRESENTATION LAYER                  |
 |                                                  |
-|  +----------+  +----------+  +---------------+  |
-|  | Dashboard|  | Calendar |  |  Assignments  |  |
-|  +----------+  +----------+  +---------------+  |
+|  +----------+  +----------+  +---------------+   |
+|  | Dashboard|  | Calendar |  |  Assignments  |   |
+|  +----------+  +----------+  +---------------+   |
 |                                                  |
 |  +----------+  +---------------------+           |
 |  | Schedule |  |   Notifications     |           |
