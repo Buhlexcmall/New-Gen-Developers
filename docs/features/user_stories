@@ -1,0 +1,51 @@
+# User Stories
+
+---
+
+## Authentication
+
+- As a **student**, I want to register an account using my email and password so that I can access my personalised academic data securely.
+- As a **student**, I want to log in to the app so that I can view my schedule, assignments, and study plans.
+- As a **student**, I want to reset my password via email so that I can regain access if I forget my credentials.
+
+---
+
+## Class Schedule Management
+
+- As a **student**, I want to add my class timetable to the app so that I can view all my classes in one place.
+- As a **student**, I want to view my weekly class schedule in a calendar format so that I can plan my week effectively.
+- As a **student**, I want to edit or delete a class entry so that my schedule stays accurate when changes occur.
+- As a **student**, I want to receive a reminder before each class so that I am never late or unprepared.
+
+---
+
+## Assignment Tracking
+
+- As a **student**, I want to add a new assignment with a title, subject, and due date so that I can keep track of what needs to be done.
+- As a **student**, I want to update the status of an assignment (To Do / In Progress / Done) so that I can monitor my progress.
+- As a **student**, I want to view all my assignments sorted by due date so that I can prioritise the most urgent tasks first.
+- As a **student**, I want to set a priority level (High / Medium / Low) on each assignment so that I can focus on what matters most.
+- As a **student**, I want to delete a completed assignment so that my task list stays clean and relevant.
+
+---
+
+## Study Planning
+
+- As a **student**, I want to schedule a study session for a specific subject on a chosen date and time so that I can plan my preparation ahead of time.
+- As a **student**, I want to view all my planned study sessions in a calendar view so that I can see how my study time is distributed across the week.
+- As a **student**, I want to receive a notification when a study session is about to begin so that I am reminded to start studying.
+
+---
+
+## Notifications and Reminders
+
+- As a **student**, I want to receive automatic reminders for upcoming assignment deadlines so that I do not miss any submission dates.
+- As a **student**, I want to configure how early I receive reminders (e.g., 1 day or 2 days before) so that the notifications suit my personal study style.
+- As a **student**, I want to receive a daily summary notification in the morning so that I know what is on my agenda for the day.
+
+---
+
+## Dashboard
+
+- As a **student**, I want to see an overview of today's classes, upcoming deadlines, and pending tasks on the dashboard so that I can quickly understand my day at a glance.
+- As a **student**, I want to see a visual progress indicator for each subject so that I know how much of my workload I have completed.
